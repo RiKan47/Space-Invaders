@@ -46,7 +46,7 @@ def show_score(x, y):
 
 
 # game loop
-pygame.key.set_repeat(1, 15)
+pygame.key.set_repeat(1, 25)
 running = True
 while running:
     # for background
