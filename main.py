@@ -81,7 +81,7 @@ while running:
     clock.tick(30)
     # for background
     screen.fill((0, 128, 0))
-    screen.blit(background_img,(0,0))
+    screen.blit(background_img, (0, 0))
     player(player_x, player_y)
     enemy(enemy_x, enemy_y)
     show_score(10, 10)
